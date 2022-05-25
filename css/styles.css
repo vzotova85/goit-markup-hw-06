@@ -252,11 +252,17 @@ h6 {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.87;
-    display: flex;
+    line-height: 1.87; 
     letter-spacing: 0.06em;
-    padding: 10px 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
+
+    width: 200px;
+    height: 50px;
+
 }
 
 .section-title {
@@ -531,6 +537,31 @@ h6 {
      fill: var(--white-text-color);
  }
 
+ .subscribe {
+     margin-left: auto; 
+     padding-top: 12px;
+
+ }
+ .subscribe .modal-input {
+     width: 358px;
+     height: 50px;
+
+ }
+
+ .subscribe .input-wrap {
+     display: flex;
+ }
+
+ .subscribe .modal-input {
+     margin-right: 12px;
+     background-color: transparent;
+     border: 1px solid var(--primary-text-color);
+ }
+ 
+ .subscribe .icon {
+     margin-left: 10px;
+ }
+
 /*Portfolio*/
 /*фильтр*/
 .button.secondary {
@@ -757,10 +788,16 @@ h6 {
     resize: none;
 }
 
+.modal-field-check {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
 .check-text {
     display: flex;
     align-items: center;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71px;
     color: var(--primary-text-color);
@@ -788,10 +825,6 @@ h6 {
 }
 
 
-
-    
-
-
 .input-wrap {
     position: relative;
     margin-top: 4px;
@@ -804,3 +837,4 @@ h6 {
     top: 50%;
     transform: translateY(-50%);
 }
+
