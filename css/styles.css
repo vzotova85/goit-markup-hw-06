@@ -556,8 +556,13 @@ h6 {
      margin-right: 12px;
      background-color: transparent;
      border: 1px solid var(--primary-text-color);
+     padding-left: 16px;
  }
  
+ .subscribe .modal-input:focus {
+     color: var(--icon-color);
+     padding-left: 16px;
+ }
  .subscribe .icon {
      margin-left: 10px;
  }
